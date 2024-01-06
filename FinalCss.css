@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/purple-bg.png');
+    background-size:100% ;
+    background-repeat: no-repeat;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #17113b;
+  }
+  header {
+    color: #17113b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #17113b;
+    text-decoration: none;
+    font-size: large;
+    transition: all 0.1s;
+    font-size: 16px;
+  }
+  nav a:hover {
+    color: rgb(136, 13, 218);
+  }
+  a.active{
+    background: rgb(136, 13, 218);
+    background-repeat: no-repeat;
+    padding: 8px;
+    border-radius: 60px;
+    color: aliceblue;
+    /* transition: 0.1s; */
+  }
+  a.active:hover{
+    color: aqua;
+    background-color: black;
+    box-shadow: 2px 2px 8px gray;
+  }
+.header{
+  margin-bottom: 100px;
+}
+.container{
+    border: 2px solid white;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    height: 1300px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    background: url(../img/Asset\ 11.png);
+    background-position: center;
+    box-shadow: 0px 0px 60px 15px rgb(136,13,218);
+}
+.container h2{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+}
+.col-head{
+    display: flex;
+    font-size: x-large;
+}
+.userdetails h4{
+    margin-left: 50px;
+    font-size: large;
+    color: white;
+}
+.userdetails label{
+    font-weight: lighter;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.userdetails img{
+    width: 40%;
+    height: 300px;
+    margin-left: 240px;
+    background-size: 100%;
+    background-position: center;
+    border-radius: 20px;
+}
+/* .Fdate{
+    margin-left: 170px;
+    background-color:aliceblue;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+.Ftime{
+    margin-left: 150px;
+    background-color: aliceblue;
+    padding: 5px 40px;
+    border-radius: 10px;
+}
+.FDetails{
+    margin-left: 120px;
+    background-color: aliceblue;
+    padding: 5px 130px;
+    border-radius: 10px;   
+} */
+/* table {
+  border-collapse: separate;
+  border-spacing: 0 px;
+  width: 100%;
+} */
+table{
+  margin-left: 5px; 
+  margin-top: 50px;
+  border: 3px solid black;
+  border-collapse:separate;
+  border-spacing: 10px 15px;
+  background: rgb(136, 13, 218);
+  text-align: justify;
+  width: 90%;
+  border-radius: 10px;
+}
+table label{
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+table th{
+  font-size:x-large;
+  padding-left: 10px;
+  color: white;
+}
+table td{
+  padding: 10px;
+}
+.Date{
+  margin-right: 80px;
+}
+.Time{
+  margin-right: 60px;
+}
+.Details{
+  margin-right: 0px;
+}
+table label[class='Details']{
+  display: block;
+  width: 300px;
+  text-align: center;
+}
+ 
+table label[class='Date']{
+ display: block;
+ width: 100px;
+ text-align: center;
+}
+
+table label[class='Time']{
+  display: block;
+  width: 100px;
+  text-align: center;
+ }
+
+th[class='Details']{
+  text-align: center;
+}
+input[type=submit]{
+  margin-left: 480px;
+  margin-top: 40px;
+  width: 20%;
+  padding: 15px 10px;
+  border-radius: 50px;
+  background-color: rgb(136, 13, 218);
+  color:white;
+  background-position: center;
+  font-weight: bolder;
+  font-size:medium;
+  cursor: pointer;
+  /* letter-spacing: 1px; */
+}
+input[type=submit]:hover {
+    color: rgb(140,79,237) ;
+    background-color: rgb(217, 195, 247);
+}
